@@ -6,4 +6,9 @@ def main(list1):
     Returns:
         bool: return answer
     """
-    return
+    if len(list1) ==0:
+        return True
+    else :
+        return False
+print(main("1234566789987"))
+    
