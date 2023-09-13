@@ -6,9 +6,9 @@ def main(list1):
     Returns:
         bool: return answer
     """
-    if len(list1) ==0:
-        return True
-    else :
-        return False
-print(main("1234566789987"))
+    for i in list1[0]:
+        if i !=[0]:
+            return False
+    return True
+print(main("0,0,0,0,0,0"))
     
